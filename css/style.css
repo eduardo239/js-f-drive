@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
 
 *,
 *::after,
@@ -198,11 +198,54 @@ select {
   margin: 0.5rem 1rem;
 }
 /* - - - - - - - - - progress-bar-item - - - - - - - - -  */
+.progress-bar {
+  justify-content: flex-end;
+  flex: 1;
+  padding: 0.5rem 2rem;
+}
+.progress-bar h6 {
+  text-align: right;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
 .progress-bar-item {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 1.5rem;
 }
 
+.progress-bar-outer {
+  background-color: #ececf3;
+}
+.progress-bar-inner {
+  background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
+  );
+  height: 0.5rem;
+}
+.progress-bar-inner,
+.progress-bar-outer {
+  border-radius: 2rem;
+}
+
+.progress-company {
+  width: 14rem;
+}
+.progress-45 {
+  margin-right: 55%;
+}
+.progress-65 {
+  margin-right: 35%;
+}
+.progress-80 {
+  margin-right: 20%;
+}
+.progress-85 {
+  margin-right: 15%;
+}
 /* - - - - - - - - - card - - - - - - - - -  */
 .card {
   padding: 2rem;
