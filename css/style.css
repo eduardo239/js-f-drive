@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* 
+500
+ */
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #202124;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1.25rem 0 1.125rem;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.728rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+small,
+.text_small {
+  font-size: 0.833rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.icon {
+  width: 4.375rem;
+}
+
+a {
+  text-decoration: none;
+  color: #202124;
+  opacity: 0.9;
+  transform: 0.2s;
+}
+a:hover {
+  opacity: 1;
+}
+
+select {
+  padding: 0.5rem;
+  border: none;
+  border: 1px solid #e3e3e3;
+  outline: none;
+}
+/* - - - - - - - - - align - - - - - - - - -  */
+
+.left {
+  text-align: left;
+}
+/* - - - - - - - - - height - - - - - - - - -  */
+.min-h-50 {
+  min-height: 50vh;
+}
+.min-h-75 {
+  min-height: 75vh;
+}
+.min-h-100 {
+  min-height: 100vh;
+}
+/* - - - - - - - - - colors - - - - - - - - -  */
+
+.primary {
+  color: #1875e7;
+}
+.bg-primary {
+  background-color: #1875e7;
+}
+.bg-clear {
+  background-color: #f8f9fb;
+}
+/* - - - - - - - - - buttons - - - - - - - - -  */
+.btn,
+.btn-outline {
+  display: inline-block;
+  padding: 9px 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.btn {
+  border: 1px solid #e3e3e3;
+}
+.btn:hover {
+  cursor: pointer;
+  filter: brightness(95%);
+}
+.btn-primary {
+  background-color: #1875e7;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #1875e7;
+}
+.btn:hover {
+  border: 1px solid #1875e7;
+  filter: brightness(120%);
+}
+.btn-outline:hover {
+  filter: brightness(95%);
+}
+/* - - - - - - - - - logo - - - - - - - - -  */
+.logo {
+  padding: 0.625rem;
+  min-width: 12rem;
+}
+.logo-img {
+  min-height: 2rem;
+}
+.logo-img-big {
+  min-height: 4rem;
+}
+/* - - - - - - - - - menu - - - - - - - - -  */
+.menu li {
+  display: inline-block;
+}
+.menu li a {
+  font-size: 0.875rem;
+  letter-spacing: 0.035em;
+  padding: 0.8125rem;
+  display: block;
+}
+/* - - - - - - - - - app-store-wrapper - - - - - - - - -  */
+.app-store-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.app-store-wrapper a {
+  margin: 0.5rem;
+}
+.app-store-wrapper a:hover {
+  margin: 0.5rem;
+  cursor: pointer;
+  filter: brightness(120%);
+}
+/* - - - - - - - - - section-wrapper - - - - - - - - -  */
+.section-wrapper {
+  text-align: center;
+}
+/* - - - - - - - - - carousel - - - - - - - - -  */
+.carousel {
+  background-color: #fff;
+}
+
+.company-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.company-wrapper img {
+  margin: 0.5rem 1rem;
+}
+/* - - - - - - - - - progress-bar-item - - - - - - - - -  */
+.progress-bar-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* - - - - - - - - - card - - - - - - - - -  */
+.card {
+  padding: 2rem;
+  text-align: left;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.card svg,
+.card img {
+  height: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.card h6 {
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+.card p {
+  margin: 0.5rem 0 4.25rem;
+  opacity: 0.9;
+}
+/* - - - - - - - - - footer-section - - - - - - - - -  */
+.footer-section {
+  text-align: left;
+}
+.footer-section {
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+.footer-section h6 {
+  margin-bottom: 1rem;
+}
+.footer-links li a {
+  padding: 0.25rem 0;
+  display: block;
+  opacity: 0.8;
+}
+
+.footer-help span,
+select {
+  opacity: 0.8;
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+}
+.footer-help select {
+  min-width: 50%;
+}
+.icon-footer {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+}
+/* - - - - - - - - - section-wrapper - - - - - - - - -  */
+/* - - - - - - - - - sections - - - - - - - - -  */
+/* - - - - - - - - - sections - - - - - - - - -  */
+/* - - - - - - - - - sections - - - - - - - - -  */
+/* - - - - - - - - - sections - - - - - - - - -  */
+/* - - - - - - - - - sections - - - - - - - - -  */
+/* - - - - - - - - - sections - - - - - - - - -  */
+/* - - - - - - - - - sections - - - - - - - - -  */
+/* - - - - - - - - - sections - - - - - - - - -  */
+/* - - - - - - - - - sections - - - - - - - - -  */
