@@ -1,0 +1,26 @@
+@media (max-width: 576px) {
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile li {
+    display: inline-block;
+  }
+  .menu {
+    display: none;
+  }
+
+  .progress-bar-item {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+}
+
+.menu-mobile {
+  margin-left: auto;
+}
+.menu-mobile img {
+  width: 2.2rem;
+}

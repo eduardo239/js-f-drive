@@ -93,6 +93,17 @@ select {
 .left {
   text-align: left;
 }
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+/* - - - - - - - - - padding - - - - - - - - -  */
+.px-7 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 /* - - - - - - - - - height - - - - - - - - -  */
 .min-h-50 {
   min-height: 50vh;
@@ -106,13 +117,13 @@ select {
 /* - - - - - - - - - colors - - - - - - - - -  */
 
 .primary {
-  color: #1875e7;
+  color: #fad02c;
 }
 .bg-primary {
-  background-color: #1875e7;
+  background-color: #fad02c;
 }
 .bg-clear {
-  background-color: #f8f9fb;
+  background-color: #dcdfe6;
 }
 /* - - - - - - - - - buttons - - - - - - - - -  */
 .btn,
@@ -130,16 +141,16 @@ select {
   filter: brightness(95%);
 }
 .btn-primary {
-  background-color: #1875e7;
+  background-color: #202124;
   color: #fff;
 }
 
 .btn-secondary {
   background-color: #fff;
-  color: #1875e7;
+  color: #202124;
 }
 .btn:hover {
-  border: 1px solid #1875e7;
+  border: 1px solid #202124;
   filter: brightness(120%);
 }
 .btn-outline:hover {
@@ -157,6 +168,12 @@ select {
   min-height: 4rem;
 }
 /* - - - - - - - - - menu - - - - - - - - -  */
+.menu-mobile {
+  display: none;
+}
+.menu {
+  display: block;
+}
 .menu li {
   display: inline-block;
 }
@@ -195,7 +212,7 @@ select {
   align-items: center;
 }
 .company-wrapper img {
-  margin: 0.5rem 1rem;
+  margin: 1rem;
 }
 /* - - - - - - - - - progress-bar-item - - - - - - - - -  */
 .progress-bar {
@@ -218,12 +235,7 @@ select {
   background-color: #ececf3;
 }
 .progress-bar-inner {
-  background-image: radial-gradient(
-    circle 248px at center,
-    #16d9e3 0%,
-    #30c7ec 47%,
-    #46aef7 100%
-  );
+  background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
   height: 0.5rem;
 }
 .progress-bar-inner,

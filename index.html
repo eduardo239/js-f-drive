@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
 
-    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
     <div class="container">
-      <div class="d-flex align-items-center py-2">
-        <div class="col-12 col-md-6 d-flex align-items-center">
+      <div class="d-flex align-items-center py-2 flex-wrap">
+        <div class="col-12 col-lg-6 d-flex align-items-center">
           <div class="logo">
             <img class="logo-img" src="./assets/logo-text.svg" alt="" />
           </div>
@@ -24,8 +24,14 @@
             <li><a href="#">Equipes</a></li>
             <li><a href="#">Empresas</a></li>
           </ul>
+          <!-- menu-mobile -->
+          <ul class="menu-mobile">
+            <li>
+              <a href="#"><img src="./assets/bx_bx-menu.svg" alt="" /></a>
+            </li>
+          </ul>
         </div>
-        <div class="col-12 col-md-6 d-flex justify-content-end">
+        <div class="col-12 col-lg-6 d-flex justify-content-end right">
           <div>
             <a class="btn btn-secondary">Acesse o Google Drive</a>
             <a class="btn btn-primary">Teste o Drive com sua equipe</a>
@@ -53,12 +59,12 @@
       </div>
       <!-- section a -->
       <div class="row d-flex align-items-center">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 order-2 order-md-1">
           <div class="section-hero-image d-flex justify-content-center">
             <img src="./assets/Medicines.png" alt="" />
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 order-1 order-md-2">
           <div class="section-section-content">
             <div class="icon-wrapper">
               <img class="icon" src="./assets/bx_bx-group.svg" alt="" />
@@ -80,7 +86,10 @@
       <div class="row d-flex align-items-center min-h-75">
         <div class="col-12 col-md-6">
           <div class="section-hero-content">
-            <h1>Acesso fácil e seguro a todo o conteúdo</h1>
+            <div class="icon-wrapper">
+              <img class="icon" src="./assets/bx_bx-search-alt.svg" alt="" />
+            </div>
+            <h2>Acesso fácil e seguro a todo o conteúdo</h2>
             <p>
               Armazene, compartilhe e colabore em arquivos e pastas usando
               qualquer dispositivo móvel, tablet ou computador
@@ -91,7 +100,7 @@
         </div>
         <div class="col-12 col-md-6">
           <div class="section-hero-image d-flex justify-content-center">
-            <img src="./assets/Medicines.png" alt="" />
+            <img src="./assets/Travels.png" alt="" />
           </div>
         </div>
       </div>
@@ -123,15 +132,15 @@
       <div class="row d-flex align-items-center min-h-75">
         <div class="col-12">
           <div class="section-wrapper bg-clear p-5">
-            <h1>
+            <h1 class="px-0 px-sm-3">
               Milhares de equipes já usam o Drive para revolucionar a forma como
               trabalham
             </h1>
-            <div class="carousel">
+            <div class="carousel my-3">
               <div class="carousel-img d-flex justify-content-center py-5">
                 <img class="logo-img-big" src="./assets/logo-text.svg" alt="" />
               </div>
-              <h3>
+              <h3 class="px-5">
                 "Eu nunca me preocupo em encontrar um documento. Tudo está no
                 Drive. Posso acessá-lo em qualquer lugar, e isso tem sido
                 revolucionário."
@@ -140,7 +149,7 @@
                 >Leia a história</a
               >
             </div>
-            <div class="company-wrapper">
+            <div class="company-wrapper mt-5">
               <img src="./assets/c_bad_time.png" alt="" />
               <img src="./assets/c_bike_co.png" alt="" />
               <img src="./assets/c_happy_inc.png" alt="" />
@@ -153,7 +162,7 @@
       <div class="row d-flex align-items-center min-h-75">
         <div class="col-12 col-md-6">
           <div class="section-wrapper">
-            <h1 class="left">
+            <h1 class="left px-0 px-sm-3">
               Os usuários preferem o Drive aos produtos concorrentes
             </h1>
             <small
@@ -219,7 +228,7 @@
       <div class="row d-flex align-items-center min-h-75">
         <div class="col-12">
           <div class="section-wrapper">
-            <h1>
+            <h1 class="px-7">
               O Drive se integra às ferramentas que sua equipe já está usando
             </h1>
             <div class="company-wrapper">
@@ -237,10 +246,35 @@
         <div class="col">
           <div class="section-wrapper">
             <h1 class="mb-5">Primeiros passos</h1>
-            <div class="d-flex justify-content-between align-items-start">
-              <div class="card">
+            <div
+              class="d-flex flex-md-nowrap flex-wrap justify-content-between align-items-start"
+            >
+              <div class="card mb-4 mb-md-0">
                 <div class="icon-wrapper">
-                  <img class="icon" src="./assets/bx_bx-group.svg" alt="" />
+                  <img
+                    class="icon"
+                    src="./assets/bx_bxs-business2.svg"
+                    alt=""
+                  />
+                </div>
+                <h6>Empresas</h6>
+                <p>
+                  Armazene, compartilhe e acesse arquivos e pastas em qualquer
+                  dispositivo móvel, tablet ou computador. Os primeiros 15 GB de
+                  armazenamento são gratuitos.
+                </p>
+                <a href="#" class="btn-outline btn-secondary"
+                  >Acesse o Google Drive</a
+                >
+              </div>
+              <!--  -->
+              <div class="card mb-4 mb-md-0">
+                <div class="icon-wrapper">
+                  <img
+                    class="icon"
+                    src="./assets/bx_bx-user-check2.svg"
+                    alt=""
+                  />
                 </div>
                 <h6>Pessoas</h6>
                 <p>
@@ -253,39 +287,15 @@
                 >
               </div>
               <!--  -->
-              <div class="card">
+              <div class="card mb-4 mb-md-0">
                 <div class="icon-wrapper">
-                  <img class="icon" src="./assets/bx_bx-group.svg" alt="" />
+                  <img
+                    src="./assets/bx_bx-search-alt2.svg"
+                    alt=""
+                    class="icon"
+                  />
                 </div>
-                <h6>Pessoas</h6>
-                <p>
-                  Armazene, compartilhe e acesse arquivos e pastas em qualquer
-                  dispositivo móvel, tablet ou computador. Os primeiros 15 GB de
-                  armazenamento são gratuitos.
-                </p>
-                <a href="#" class="btn-outline btn-secondary"
-                  >Acesse o Google Drive</a
-                >
-              </div>
-              <!--  -->
-              <div class="card">
-                <div class="icon-wrapper">
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16.6041 11.048C17.2131 10.0101 17.4761 8.80528 17.3551 7.60797C17.1761 5.82397 16.1801 4.24697 14.5521 3.16797L13.4471 4.83397C14.5661 5.57597 15.2471 6.63297 15.3651 7.80797C15.4195 8.35407 15.3515 8.90543 15.1661 9.42195C14.9806 9.93847 14.6824 10.4072 14.2931 10.794L13.1011 11.986L14.7191 12.461C18.9511 13.701 19.0001 17.957 19.0001 18H21.0001C21.0001 16.211 20.0441 12.715 16.6041 11.048Z"
-                      fill="#FAD02C"
-                    />
-                    <path
-                      d="M9.5 12C11.706 12 13.5 10.206 13.5 8C13.5 5.794 11.706 4 9.5 4C7.294 4 5.5 5.794 5.5 8C5.5 10.206 7.294 12 9.5 12ZM9.5 6C10.603 6 11.5 6.897 11.5 8C11.5 9.103 10.603 10 9.5 10C8.397 10 7.5 9.103 7.5 8C7.5 6.897 8.397 6 9.5 6ZM11 13H8C4.691 13 2 15.691 2 19V20H4V19C4 16.794 5.794 15 8 15H11C13.206 15 15 16.794 15 19V20H17V19C17 15.691 14.309 13 11 13Z"
-                      fill="#FAD02C"
-                    />
-                  </svg>
-                </div>
-                <h6>Pessoas</h6>
+                <h6>Curiosidades</h6>
                 <p>
                   Armazene, compartilhe e acesse arquivos e pastas em qualquer
                   dispositivo móvel, tablet ou computador. Os primeiros 15 GB de
@@ -312,7 +322,7 @@
       </div>
       <!-- section footer -->
 
-      <div class="row d-flex align-items-center">
+      <div class="row d-flex align-items-center pb-5">
         <div class="col-12 col-sm-6 col-lg-3">
           <div class="footer-section">
             <h6>Fazer upgrade do Drive</h6>
@@ -359,12 +369,20 @@
         <div class="section-wrapper-footer">
           <div class="footer-bottom">
             <div class="container">
-              <div class="d-flex align-items-center align-items-center">
+              <div
+                class="d-flex flex-wrap align-items-center align-items-center"
+              >
                 <div class="col-12 col-sm-6 col-lg-4">
                   <img class="logo-img" src="./assets/logo.svg" alt="" />
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
                   <ul class="menu">
+                    <li><a href="#">Indivíduos</a></li>
+                    <li><a href="#">Equipes</a></li>
+                    <li><a href="#">Empresas</a></li>
+                  </ul>
+                  <!-- menu mobile -->
+                  <ul class="menu-mobile center">
                     <li><a href="#">Indivíduos</a></li>
                     <li><a href="#">Equipes</a></li>
                     <li><a href="#">Empresas</a></li>
@@ -379,7 +397,10 @@
                     />
                     <span>Ajuda</span>
                     <select name="" id="">
-                      <option value="English">English</option>
+                      <option value="english">English</option>
+                      <option value="spanish">Spanish</option>
+                      <option value="italian">Italian</option>
+                      <option value="chinese">Chinese</option>
                     </select>
                   </div>
                 </div>
