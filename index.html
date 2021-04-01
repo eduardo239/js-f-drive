@@ -17,7 +17,7 @@
   <body>
     <div class="container">
       <div class="d-flex align-items-center py-2 flex-wrap">
-        <div class="col-12 col-lg-6 d-flex align-items-center">
+        <div class="col-12 col-lg-6 col-md-8 d-flex align-items-center">
           <div class="logo">
             <img class="logo-img" src="./assets/logo-text.svg" alt="" />
           </div>
@@ -29,11 +29,22 @@
           <!-- menu-mobile -->
           <ul class="menu-mobile">
             <li>
-              <a href="#"><img src="./assets/bx_bx-menu.svg" alt="" /></a>
+              <a id="top-menu-mobile" href="#"
+                ><img src="./assets/bx_bx-menu.svg" alt=""
+              /></a>
+              <ul class="menu-mobile-content" data-menu-mobile="false">
+                <li><a href="#">Planos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Empresas</a></li>
+                <li><a class="primary bg-dark" href="#">Acessar</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+              </ul>
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 d-flex justify-content-end right">
+        <div
+          class="col-12 col-lg-6 col-md-4 justify-content-end right d-none d-md-flex"
+        >
           <div>
             <a class="btn btn-secondary">Fale conosco</a>
             <a class="btn btn-primary">Acessar</a>
@@ -133,8 +144,8 @@
       <!-- section d -->
       <div class="row d-flex align-items-center min-h-75">
         <div class="col-12">
-          <div class="section-wrapper bg-clear px-1 py-3 p-sm-5">
-            <h1 class="px-0 px-sm-3 mb-1 mb-sm-4">Nossos parceiros</h1>
+          <div class="section-wrapper bg-clear px-0 py-3 p-sm-5">
+            <h1 class="px-0 px-sm-3 mb-1 py-sm-2 py-4">Nossos parceiros</h1>
             <div class="carousel my-3">
               <div class="carousel-img d-flex justify-content-center py-5">
                 <img class="logo-img-big" src="./assets/logo-text.svg" alt="" />
@@ -225,7 +236,7 @@
       <div class="row d-flex align-items-center min-h-75">
         <div class="col-12">
           <div class="section-wrapper">
-            <h1 class="px-7">
+            <h1 class="px-7 mb-5">
               Nossos serviços se encaixam nas suas necessidades
             </h1>
             <div class="company-wrapper">

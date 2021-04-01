@@ -129,6 +129,9 @@ select {
 .bg-clear {
   background-color: #dcdfe6;
 }
+.bg-dark {
+  background-color: #202124;
+}
 /* - - - - - - - - - buttons - - - - - - - - -  */
 .btn,
 .btn-outline {
